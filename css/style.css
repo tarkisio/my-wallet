@@ -1,0 +1,98 @@
+:root{
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans 3', sans-serif;*/
+    --background-color: #27374D;
+    --background-color-listas: #526D82;
+    --font-color1: white;
+
+} 
+
+
+body {
+    font-family:  'Poppins', sans-serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    background: var(--background-color);
+    color: var(--font-color1);
+}
+
+
+.header {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #444;
+    color: white;
+    padding: 10px;
+    text-align: center;
+
+}
+
+
+
+
+.toggleItens {
+    cursor: pointer;
+    display: block;
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+}
+
+
+.hidden {
+    display: none;
+}
+
+.body-block {
+    display: block;
+    gap: 20px;
+    margin-top: 10px;
+    
+}
+
+.section {
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-top: 5px;
+    align-items: baseline;
+    justify-content: center;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-start;
+    gap: 10px;
+}
+
+
+.section h2::before {
+    content: "";
+    display: block;
+    width: 100%;
+    border-top: 1px solid #ffffff;
+    padding-top: 10px;
+}
+
+.main-buttons {
+    margin-top: 20px;
+}
+
+.main-buttons-item{
+    cursor: pointer;
+}
+
+.lista-despesas {
+    background-color: var(--background-color-listas);
+    margin: 10px;
+}
+
+.despesa-item{
+    margin-top: 5px;
+}
+
