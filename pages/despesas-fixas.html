@@ -1,0 +1,52 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Wallet</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poppins:wght@200&family=Source+Sans+3:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <div id="header">
+        </div>
+        <section>
+            <button class="button-back" onclick="window.location.href='../index.html'" value="voltar">⇽</button>
+        </section>
+    </header>
+    
+
+    <section class="toggleItens">
+        <button class="button-include-itens" value="+">﹢</button>
+        <ul class="menu-include-itens hidden">
+            <li>Lançar Receita</li>
+            <li>Lançar Despesa</li>
+        </ul>
+    </section>
+    <main class="body-block">
+            <section class="section despesas-fixas">
+                <p>Despesas Fixas</p>
+                <h2>R$ 5000,00</h2>
+                <div class="main-buttons">
+                    <button class="main-buttons-item">Lançar despesa</button>
+                </div>
+            </section>
+            <section class="section soh-despesas">
+                <ul class="lista-despesas lista-despesas-fixas" id="lista-despesas-fixas">
+                    <li class="despesa-item">Luz: R$ 350,00</li>
+                    <li class="despesa-item">Agua: R$ 160,00</li>
+                    <li class="despesa-item">Casa: R$ 3000,00</li>
+                    <li class="despesa-item">Mercado: R$ 1500,00</li>
+                </ul>
+            </section>
+        </main>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

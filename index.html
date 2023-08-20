@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Remote First Page</title>
+    <title>My Wallet</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,39 +30,30 @@
                 <p>Total na carteira</p>
                 <h2>R$ 10000,00</h2>
                 <div class="main-buttons">
-                    <button class="main-buttons-item">Lançar receitas</button>
+                    <button class="main-buttons-item">Ver receitas</button>
                 </div>
             </section>
             <section class="section despesas-fixas">
                 <p>Despesas Fixas</p>
                 <h2>R$ 5000,00</h2>
                 <div class="main-buttons">
-                    <button class="main-buttons-item">Lançar despesa</button>
+                    <button class="main-buttons-item" onclick="window.location.href='./pages/despesas-fixas.html'" id="btn-depesas-fixas">Ver despesa</button>
                 </div>
-                <ul class="lista-despesas lista-despesas-fixas" id="lista-despesas-fixas">
-                    <li class="despesa-item">Luz: R$ 350,00</li>
-                    <li class="despesa-item">Agua: R$ 160,00</li>
-                    <li class="despesa-item">Casa: R$ 3000,00</li>
-                    <li class="despesa-item">Mercado: R$ 1500,00</li>
-                </ul>
+
             </section>
             <section class="section">
                 <p>Despesas Rotativas</p>
                 <h2>R$ 1500,0</h2>
                 <div class="main-buttons">
-                    <button class="main-buttons-item">Lançar despesa</button>
+                    <button class="main-buttons-item" onclick="window.location.href='./pages/despesas-rotativas.html'" id="btn-depesas-rotativas">Ver despesa</button>
                 </div>
-                <ul class="lista-despesas lista-despesas-rotativas" id="lista-despesas-rotativas">
-                    <li class="despesa-item">Parcela da TV: R$ 200,00</li>
-                    <li class="despesa-item">Roupa: R$ 160,00</li>
-                    <li class="despesa-item">Médico: R$ 3000,00</li>
-                </ul>
+
             </section>
             <section class="section">
                 <p>Livre para gastar</p>
                 <h2>R$ 800,0</h2>
                 <div class="main-buttons">
-                    <button class="main-buttons-item">Lançar despesa</button>
+                    <button class="main-buttons-item" onclick="window.location.href='./pages/livre.html'" id="btn-despesas-livres">Ver despesa</button>
                 </div>
                 
             </section>

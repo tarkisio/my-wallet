@@ -1,8 +1,9 @@
 :root{
-    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'Montserrat', sans-serif;*/
     /* font-family: 'Poppins', sans-serif;
     font-family: 'Source Sans 3', sans-serif;*/
     --background-color: #27374D;
+    --background-color-btn: #27374d42;
     --background-color-listas: #526D82;
     --font-color1: white;
 
@@ -10,8 +11,8 @@
 
 
 body {
-    font-family:  'Poppins', sans-serif;
-    font-weight: 500;
+    font-family:  'Source Sans 3', sans-serif;
+    font-weight: 300;
     margin: 0;
     padding: 0;
     background: var(--background-color);
@@ -20,21 +21,30 @@ body {
 
 
 .header {
+    position: fixed;
+    top: 0;
     width: 100%;
-    height: 10vh;
+    height: 2h;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    background-color: #444;
+    background-color: var(--background-color);
     color: white;
     padding: 10px;
     text-align: center;
-
+      
 }
 
 
-
+.button-back {
+    cursor: pointer;
+    display: block;
+    background-color: #27374d00;   
+    border: none;
+    color: var(--font-color1);
+    font-weight: bold;
+}
 
 .toggleItens {
     cursor: pointer;
@@ -88,7 +98,6 @@ body {
 }
 
 .lista-despesas {
-    background-color: var(--background-color-listas);
     margin: 10px;
 }
 
