@@ -1,0 +1,51 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Wallet</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poppins:wght@200&family=Source+Sans+3:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/formulario.css">
+
+</head>
+
+<body>
+
+    <iframe class="iframe-header" src="../header.html" frameborder="0" id="iframe-header"></iframe>
+    
+    <form class="formulario formulario-despesa" data-formulario>
+        <fieldset class="formulario__campo">
+            <label class="campo__etiqueta" for="descricao">Descrição</label>
+            <input name="descricao" id="descricao" class="campo__escrita"type="text" required/>
+            <span class="mensagem-erro"></span>
+        </fieldset>
+
+        <fieldset class="formulario__campo">
+            <label class="campo__etiqueta" for="valor">Valor</label>
+            <input name="valor" id="valor" class="campo__escrita" type="number" required/>
+            <span class="mensagem-erro"></span>
+        </fieldset>
+
+        <fieldset class="formulario__campo">
+            <input type="radio" name="despesa" value="despesa__fixa" required/> Despesa Fixa<br />
+            <input type="radio" name="despesa" value="despesa__rotativa" required/> Despesa Rotativa<br />
+            <input type="radio" name="despesa" value="despesa__livre" required/> Despesa Livre
+            <span class="mensagem-erro"></span>
+        </fieldset>
+       
+
+        <div>
+            <input value="Incluir" class="formulario__botao" id="incluir" data-botao-enviar type="submit">
+            <span class="mensagem-erro"></span>
+        </div>
+
+
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
+

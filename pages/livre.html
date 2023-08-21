@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Wallet</title>
-    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="../css/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poppins:wght@200&family=Source+Sans+3:wght@300&display=swap" rel="stylesheet">
@@ -13,27 +13,15 @@
 </head>
 
 <body>
-    <header class="header">
-        <div id="header">
-        </div>
-        <section>
-            <button class="button-back" onclick="window.location.href='../index.html'" value="voltar">⇽</button>
-        </section>
-    </header>
 
-    <section class="toggleItens">
-        <button class="button-include-itens" value="+">﹢</button>
-        <ul class="menu-include-itens hidden">
-            <li>Lançar Receita</li>
-            <li>Lançar Despesa</li>
-        </ul>
-    </section>
+    <iframe class="iframe-header" src="../header.html" frameborder="0" id="iframe-header"></iframe>
+
     <main class="body-block">
         <section class="section">
             <p>Livre para gastar</p>
             <h2>R$ 800,0</h2>
             <div class="main-buttons">
-                <button class="main-buttons-item">Ver despesa</button>
+                <button class="main-buttons-item" onclick="window.location.href='./lancar-despesas.html'">Ver despesa</button>
             </div>
         </section>
             <section class="section soh-despesas">
@@ -43,7 +31,7 @@
                 </ul>
             </section>
         </main>
-    <script src="./js/main.js"></script>
+    <script src="../js/main.js"></script>
 </body>
 
 </html>

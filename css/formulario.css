@@ -1,0 +1,44 @@
+.formulario {
+    margin: 3em auto;
+    width: 80vw;
+}
+
+.campo__etiqueta {
+    font-weight: 500;
+    line-height: 20px;
+    margin-top: 40px;
+}
+
+.campo__escrita {
+    display: block;
+    border: 2px solid rgba(255, 255, 255, 0.151);
+    border-radius: 10px;
+    width: 100%;
+    padding: 1em;
+    margin-top: .5em;
+    background-color: rgba(255, 255, 255, 0.322);
+    color: var(--font-color1);
+}
+
+.campo__escrita:focus {
+    
+    outline: none;
+    
+}
+
+.formulario__botao {
+    background: var(--azul-claro);
+    margin: 2em auto;
+    display: block;
+    border: none;
+    padding: 0.5em 2em;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    color: var(--branco);
+}
+
+.formulario__campo {
+    margin-bottom: 2em;
+}

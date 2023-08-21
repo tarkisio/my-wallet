@@ -5,8 +5,8 @@
     --background-color: #27374D;
     --background-color-btn: #27374d42;
     --background-color-listas: #526D82;
+    --azul-claro: #526d826e;
     --font-color1: white;
-
 } 
 
 
@@ -36,6 +36,12 @@ body {
       
 }
 
+ .iframe-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 5vh;
+} 
 
 .button-back {
     cursor: pointer;
