@@ -52,12 +52,35 @@ body {
     font-weight: bold;
 }
 
-.toggleItens {
+/* .toggleItens {
     cursor: pointer;
     display: block;
     position: fixed;
     right: 2rem;
     bottom: 2rem;
+} */
+
+.button-include-itens{
+    cursor: pointer;
+    display: block;
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+}
+
+.menu-include-itens {
+    transition: 500ms;
+    cursor: pointer;
+    display: block;
+    position: fixed;
+    right: 2rem;
+    bottom: 3.5rem;
+}
+
+.lista_inclusao {
+    cursor: pointer;
+    margin-top: 5px;
+    background-color: var(--background-color-listas);
 }
 
 
