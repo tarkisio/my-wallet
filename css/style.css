@@ -4,7 +4,7 @@
     font-family: 'Source Sans 3', sans-serif;*/
     --background-color: #27374D;
     --background-color-btn: #27374d42;
-    --background-color-listas: #526D82;
+    --background-color-listas: #526d824f;
     --azul-claro: #526d826e;
     --font-color1: white;
 } 
@@ -75,12 +75,32 @@ body {
     position: fixed;
     right: 2rem;
     bottom: 3.5rem;
+    border-radius: 5px;
+    background-color: var(--background-color-listas);
+    opacity: 0; /* Começa com opacidade 0 para estar invisível */
+    animation: fade-in 0.8s ease-in-out forwards; /* Aplica a animação */
+    padding: 10px;
+    display: flex;
+    flex-flow: column;
+    height: 50px;
+    justify-content: space-between;
+}
+
+
+@keyframes fade-in {
+    from {
+        opacity: 0; /* Começa totalmente invisível */
+    }
+    to {
+        opacity: 1; /* Termina totalmente visível */
+    }
 }
 
 .lista_inclusao {
     cursor: pointer;
-    margin-top: 5px;
-    background-color: var(--background-color-listas);
+    text-decoration: underline;
+    
+    
 }
 
 
